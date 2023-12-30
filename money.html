@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link rel="stylesheet" href="donate.css">
+    <a href="webjs.js"></a>
+</head>
+<body>
+    
+    
+    <section class="donation-section1">
+      
+        <div class ="image1">
+        <h2>Donate Fund</h2>
+        <form id ="donation-form">
+        <p>Choose your donation amount:</p>
+        <div class="donation-options">
+          <div class="donation-option">
+            <input type="radio" id="option1" name="donation" value="option1">
+            <label for="option1">1000pkr</label>
+          </div>
+          <div class="donation-option">
+            <input type="radio" id="option2" name="donation" value="option2">
+            <label for="option2">2000pkr</label>
+          </div>
+          <div class="donation-option">
+            <input type="radio" id="option3" name="donation" value="option3">
+            <label for="option3">5000pkr</label>
+          </div>
+          <div class="donation-option">
+            <input type="radio" id="option4" name="donation" value="option4">
+            <label for="option4">10000pkr</label>
+          </div>
+        </div>
+       
+
+        <div class="donation-option2">
+          <label for="amount">Enter amount manually</label>
+          <input type="number" id="amount" name="amount" required>
+      </div>
+
+        </form>
+    </div>
+
+      
+          <div class="image2">
+            <h2>Credentials</h2>
+            <form id="donation-form">
+              <div class="username">  
+              <div class="form-group">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" width="20%"required>
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+              </div>
+                <div class="form-group">
+                    <label for="cnic">CNIC</label>
+                    <input type="tel" id="cnic" name="cnic" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" id="phone-number" name="phone-number" required>
+                </div>
+                <div class="form-group">
+                    <label for="payment-method">Payment Method</label>
+                    <select id="payment-method" name="payment-method" required>
+                        <option value="Visa">Visa</option>
+                        <option value="mastercard">MasterCard</option>
+                        <option value="Sadapay">Sadapay</option>
+                        <option value="Jazzcash">Jazzcash</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="donate-button">Donate Now</button>
+                    <span class="tooltip">Fill in your details above to proceed with the donation.</span>
+                </div>
+            </form>
+
+<br>
+<br>
+<br>
+<br>
+
+
+  
+
+
+
+
+
+
+          
+      </section>
+    
+</body>
+</html>
